@@ -1,16 +1,16 @@
 {
   "name": "ndarray-fill",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fills an ndarray with function",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "ndarray": "~0.2.4",
-    "cwise": "~0.1.2"
+    "cwise": "~0.3.2"
   },
   "devDependencies": {
+    "zeros": "~0.0.0",
     "tape": "~1.0.4"
   },
   "scripts": {

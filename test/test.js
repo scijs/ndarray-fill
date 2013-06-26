@@ -1,11 +1,11 @@
 "use strict"
 
-var ndarray = require("ndarray")
+var zeros = require("zeros")
 var fill = require("../index.js")
 
 require("tape")(function(t) {
 
-  var x = ndarray.zeros([10,10])
+  var x = zeros([10,10])
   
   fill(x, function(a, b) {
     return a * 10 + b

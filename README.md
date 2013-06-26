@@ -5,10 +5,10 @@ Initialize an [ndarray](https://github.com/mikolalysenko/ndarray) with a functio
 ## Example
 
 ```javascript
-var ndarray = require("ndarray")
+var ndarray = require("zeros")
 var fill = require("ndarray-fill")
 
-var x = ndarray.zeros([5, 5])
+var x = zeros([5, 5])
 
 fill(x, function(i,j) {
   return 10*i + j
