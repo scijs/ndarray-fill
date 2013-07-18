@@ -5,7 +5,7 @@ Initialize an [ndarray](https://github.com/mikolalysenko/ndarray) with a functio
 ## Example
 
 ```javascript
-var ndarray = require("zeros")
+var zeros = require("zeros")
 var fill = require("ndarray-fill")
 
 var x = zeros([5, 5])
