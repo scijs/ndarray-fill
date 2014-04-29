@@ -1,6 +1,8 @@
 "use strict"
 
-var fill = require("cwise")({
+var cwise = require("cwise")
+
+var fill = cwise({
   args: ["index", "array", "scalar"],
   body: function(idx, out, f) {
     out = f.apply(undefined, idx)

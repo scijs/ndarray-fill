@@ -1,20 +1,20 @@
 {
   "name": "ndarray-fill",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Fills an ndarray with function",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cwise": "~0.3.2"
+    "cwise": "^1.0.0"
   },
   "devDependencies": {
     "zeros": "~0.0.0",
-    "tape": "~1.0.4"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
   "gitHead": "8831bd16c9e816764d66abbfb7054f27c40940d5",
   "bugs": {
     "url": "https://github.com/mikolalysenko/ndarray-fill/issues"
+  },
+  "browserify": {
+    "transform": ["cwise"]
   }
 }
