@@ -25,7 +25,9 @@ fill(x, function(i,j) {
 
 ## Install
 
-    npm install ndarray-fill
+```
+npm install ndarray-fill
+```
 
 ### `require("ndarray-fill")(array, func)`
 Fills an ndarray with a pattern
