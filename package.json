@@ -10,8 +10,9 @@
     "cwise": "^1.0.0"
   },
   "devDependencies": {
-    "zeros": "~0.0.0",
-    "tape": "^2.12.3"
+    "browserify": "^14.1.0",
+    "tape": "^2.12.3",
+    "zeros": "~0.0.0"
   },
   "scripts": {
     "test": "tape test/*.js"

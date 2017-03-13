@@ -1,9 +1,11 @@
-"use strict"
-
 var zeros = require("zeros")
 var fill = require("../index.js")
 
-require("tape")(function(t) {
+if(typeof test === "undefined") {
+  test = require("tape")
+}
+
+test('fill zeros', function(t) {
 
   var x = zeros([10,10])
   
