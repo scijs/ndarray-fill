@@ -1,6 +1,6 @@
 {
   "name": "ndarray-fill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fills an ndarray with function",
   "main": "index.js",
   "directories": {
