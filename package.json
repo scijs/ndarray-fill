@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "cwise": "^1.0.0"
+    "cwise": "^1.0.10"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
