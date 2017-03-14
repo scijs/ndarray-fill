@@ -2,6 +2,8 @@ ndarray-fill
 ============
 Initialize an [ndarray](https://github.com/mikolalysenko/ndarray) with a function.
 
+[![Build Status](https://travis-ci.org/scijs/ndarray-fill.svg?branch=master)](https://travis-ci.org/scijs/ndarray-fill)
+
 ## Example
 
 ```javascript
