@@ -12,10 +12,11 @@
   "devDependencies": {
     "browserify": "^14.1.0",
     "tape": "^2.12.3",
+    "tape-run": "^4.0.0",
     "zeros": "~0.0.0"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "node test/run.js"
   },
   "repository": {
     "type": "git",
