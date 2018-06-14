@@ -10,12 +10,13 @@
     "cwise": "^1.0.10"
   },
   "devDependencies": {
-    "browserify": "^14.1.0",
-    "tape": "^2.12.3",
-    "zeros": "~0.0.0"
+    "browserify": "^16.2.2",
+    "tape": "^4.9.1",
+    "tape-run": "^4.0.0",
+    "zeros": "~1.0.0"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "node test/run.js"
   },
   "repository": {
     "type": "git",
